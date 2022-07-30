@@ -1,11 +1,26 @@
 $color-primary-header: #CBB8A7;
 
 .contact__details__home{
-    height:15vh;
+    height:25vh;
     width: 100%;
-    background-color: azure;
+    
+    display: flex;
+    
 }
-
+.contact__num{
+  height: 15vh;
+  width: 44%;
+  display: flex;
+}
+.mian__logo{
+  height: 100%;
+  width: 54%;
+  
+}
+.main__logo__img{
+  height: 100%;
+  width: auto;
+}
 .navbar{
     height: 5rem;
     width: 100%;
@@ -31,8 +46,25 @@ a{
     font-size: 1.2rem;
     font-weight: 500;
 }
-
-
+.contact_cont{
+  height: inherit;
+  width: 50%;
+  padding-top: 8%;
+}
+.contact_cont h3{
+  padding-left: 65%;
+  
+}
+.callnow_cont{
+  height: inherit;
+  width: 50%;
+  margin-top: 8.5%;
+}
+.call_now_img{
+  height: 40%;
+  width: auto;
+  
+}
 
 //   *************************************
 
@@ -140,4 +172,23 @@ a{
       color: #6568f4;
       transition: 250ms;
     }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .contact__num{
+    display: none;
+  }
+  .mian__logo{
+    margin-left: 24%;
+  }
+}
+.material-symbols-outlined {
+  
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 800,
+  'GRAD' 0,
+  'opsz' 48,
+  
 }
