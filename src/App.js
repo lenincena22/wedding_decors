@@ -1,14 +1,22 @@
-import './App.css';
-import './sass/main.scss'
+import React from 'react';
 import Navbar from './components/navbar/Navbar';
-import Header from './layouts/header/Header';
+import { Header, Feature, About, Testimonal, Gallery, Contact, Form, Footer } from "./layouts"
 
+import './App.css';
+import './css/main.css';
 
 function App() {
   return (
-    <div >
-      <Navbar/>
-      <Header/>
+    <div className="App">
+      <Navbar />
+      <Header />
+      <Feature />
+      <About />
+      <Testimonal />
+      <Gallery />
+      <Contact />
+      <Form />
+      <Footer />
     </div>
   );
 }
