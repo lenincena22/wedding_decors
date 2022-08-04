@@ -1,7 +1,6 @@
-@import "./base/animation";
-
-
-$color-primary-header: #CBB8A7;
+$color-primary-header: #cbb8a7;
+$color-primary-green: #a3ad6f;
+$color-primary-grey: #f1f0ee;
 
 .contact__details__home {
   height: 25vh;
@@ -21,14 +20,13 @@ $color-primary-header: #CBB8A7;
   height: 100%;
   width: auto;
 }
-.navbar{
-    height: 5rem;
-    width: 100%;
-    background-color: $color-primary-header;
-    
-    color: aqua;
-    display: flex;
-    justify-content: space-around;
+.navbar {
+  height: 5rem;
+  width: 100%;
+  background-color: $color-primary-header;
+  color: aqua;
+  display: flex;
+  justify-content: space-around;
 }
 .nav-menu {
   display: flex;
@@ -186,11 +184,28 @@ a {
 //****************************************************
 .header__cont {
   position: relative;
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   background-image: url("../assets/header_img_main.png");
   background-size: cover;
+  background-position: 0 -10rem;
+  animation: animatebg 16s ease-in-out infinite;
 }
+// @keyframes animatebg{
+//   0%,100%{
+//     background-image: url("../assets/header-bg.jpg");
+//   }
+//   25%{
+//     background-image: url("../assets/1.png");
+//   }
+//   50%{
+//     background-image: url("../assets/2.png");
+
+//   }
+//   75%{
+//     background-image: url("../assets/3.png");
+//   }
+// }
 .header__content {
   font-style: normal;
   font-weight: 700;

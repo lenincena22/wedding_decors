@@ -179,10 +179,13 @@ a {
 
 .header__cont {
   position: relative;
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   background-image: url("../assets/header_img_main.png");
   background-size: cover;
+  background-position: 0 -10rem;
+  -webkit-animation: animatebg 16s ease-in-out infinite;
+          animation: animatebg 16s ease-in-out infinite;
 }
 
 .header__content {
