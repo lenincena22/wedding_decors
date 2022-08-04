@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import about_us from "../../../assets/about_us.jpg";
+// import about_us from "../../../assets/about_us.jpg";
 import vector_img from "../../../assets/vector-smart-object.png"
 
 const About = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-// import form_bg from "../../../assets/contact_form-bg.jpg";
+import divider_title from "../../../assets/divider_title.webp";
 
 const Form = () => {
   return (
@@ -9,14 +9,7 @@ const Form = () => {
         <div className="form-content__wrapper--right">
           <p className="form-content__caption">Give Us a Feedback</p>
           <p className="form-content__title">CONTACT FORM</p>
-          {/* <form action="">
-            <label htmlFor="name">Name*</label><br />
-            <input type="text" id='name' name='name' />
-            <label htmlFor="email">Email*</label><br />
-            <input type="email" id='email' name='email' />
-            <label htmlFor="message">Message*</label><br />
-            <textarea name="messagae" id="message" cols="30" rows="10"></textarea>
-          </form> */}
+          <img className="form-content__divider-img" src={divider_title} alt="" />
             <table className="form__table">
               <tr>
                 <td>
@@ -28,23 +21,24 @@ const Form = () => {
               </tr>
               <tr>
                 <td>
-                  <input type="text" id="name" name="name" />
+                  <input type="text" id="name" name="name" size="30" />
                 </td>
                 <td>
-                  <input type="email" id="email" name="email" />
+                  <input type="email" id="email" name="email" size="30"/>
                 </td>
               </tr>
               <tr>
                 <td>
+                  <br />
                   <label htmlFor="message">Message*</label>
                 </td>
               </tr>
               <tr>
-                <td>
+                <td colSpan="2">
                   <textarea
                     name="messagae"
                     id="message"
-                    cols="30"
+                    cols="66"
                     rows="5"
                   ></textarea>
                 </td>
