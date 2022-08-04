@@ -1,6 +1,17 @@
-$color-primary-header: #cbb8a7;
-$color-primary-green: #a3ad6f;
-$color-primary-grey: #f1f0ee;
+// Poppins Font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap'); 
+
+@import "./abstracts/variables";
+@import "./layouts/feature";
+@import "./layouts/about";
+@import "./layouts/gallery";
+@import "./layouts/form";
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
 
 .contact__details__home {
   height: 25vh;
@@ -484,3 +495,18 @@ a {
     opacity: 1;
   }
 }
+
+
+// About
+
+
+
+// gallery
+
+
+// Form
+
+
+
+
+// Feature

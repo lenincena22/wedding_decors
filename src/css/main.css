@@ -1,3 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+.feature-content {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.feature-content__wrapper {
+  text-align: center;
+}
+.feature-content__title {
+  color: #cbb8a7;
+  font-family: "PT Serif";
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 18px;
+  padding-bottom: 2rem;
+}
+.feature-content__caption {
+  font-family: "Courgette";
+  font-size: 38px;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.feature-content__cards {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+.feature-content__card--caption {
+  font-family: "Courgette";
+  font-size: 20px;
+  text-align: center;
+  margin: 2rem;
+}
+.feature-content__card--img {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  cursor: pointer;
+}
+.feature-content__card--img img {
+  width: 100%;
+  height: 100%;
+}
+.feature-content__card--img .border {
+  position: absolute;
+  width: 380px;
+  height: 280px;
+  border: 3px solid white;
+  margin: 0.6rem;
+  top: 0%;
+}
+
+.about-content {
+  background-color: #f1f0ee;
+  height: 105vh;
+}
+.about-content__wrapper--right {
+  float: right;
+  width: 50%;
+}
+.about-content__wrapper--left {
+  float: left;
+  width: 50%;
+  padding: 8rem;
+}
+.about-content__title {
+  color: #cbb8a7;
+  font-family: "PT Serif";
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 18px;
+  padding-bottom: 2rem;
+}
+.about-content__caption {
+  font-family: "Courgette";
+  font-size: 38px;
+  padding-bottom: 2rem;
+}
+.about-content__description {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #928B84;
+  padding-bottom: 3rem;
+}
+.about-content__vector-img {
+  padding-bottom: 2rem;
+}
+.about-content__btn {
+  color: white;
+  background-color: #a3ad6f;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+  padding: 20px 25px;
+}
+
+.gallery-content {
+  background-color: #f1f0ee;
+  height: 100vh;
+}
+.gallery-content__wrapper--right {
+  float: right;
+  width: 50%;
+  padding: 8rem;
+}
+.gallery-content__wrapper--left {
+  float: left;
+  width: 50%;
+}
+.gallery-content__bg-img {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+.gallery-content__title {
+  color: #cbb8a7;
+  font-family: "PT Serif";
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 18px;
+  padding-bottom: 2rem;
+}
+.gallery-content__caption {
+  font-family: "Courgette";
+  font-size: 38px;
+  padding-bottom: 3rem;
+}
+.gallery-content__vector-img {
+  padding-bottom: 2rem;
+}
+.gallery-content__description {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #928B84;
+  padding-bottom: 3rem;
+}
+.gallery-content__btn {
+  color: white;
+  background-color: #a3ad6f;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+  padding: 20px 25px;
+}
+
+.form-content {
+  background-image: url("../assets/contact_form-bg.jpg");
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10rem;
+}
+.form-content__title {
+  color: #cbb8a7;
+  font-family: "PT Serif";
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 2rem;
+}
+.form-content__caption {
+  font-family: "Courgette";
+  font-size: 38px;
+  padding-bottom: 2rem;
+}
+.form-content__btn {
+  color: white;
+  background-color: #a3ad6f;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+  padding: 20px 25px;
+}
+.form-content__wrapper input {
+  display: inline-block;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #98928b;
+  background-color: transparent;
+  margin-right: 2rem;
+}
+.form-content__wrapper textarea {
+  display: inline-block;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #98928b;
+  background-color: transparent;
+  margin-right: 2rem;
+}
+.form-content__wrapper label {
+  color: #98928b;
+}
+
+.form__table {
+  text-align: left;
+  padding-bottom: 3rem;
+  margin-top: 3rem;
+  margin-left: 32.5rem;
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
 .contact__details__home {
   height: 25vh;
   width: 100%;
