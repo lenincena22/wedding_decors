@@ -1,52 +1,52 @@
-.gallery-content{
-    background-color: $color-primary-grey;
-    height: 100vh;
-  }
-  
-  .gallery-content__wrapper--right {
+.gallery-content {
+  background-color: $color-primary-grey;
+  height: 100vh;
+
+  &__wrapper--right {
     float: right;
     width: 50%;
     padding: 8rem;
   }
-  .gallery-content__wrapper--left {
+
+  &__wrapper--left {
     float: left;
     width: 50%;
   }
-  
-  .gallery-content__bg-img {
+
+  &__bg-img {
     width: 100%;
     height: 100vh;
     background-size: cover;
   }
   
-  .gallery-content__title {
+  &__title {
     color: $color-primary-header;
-    font-family: 'PT Serif';
+    font-family: "PT Serif";
     font-weight: 500;
     letter-spacing: 2px;
     font-size: 18px;
     padding-bottom: 2rem;
   }
-  
-  .gallery-content__caption {
+
+  &__caption {
     font-family: "Courgette";
     font-size: 38px;
     padding-bottom: 3rem;
   }
   
-  .gallery-content__vector-img {
+  &__vector-img {
     padding-bottom: 2rem;
   }
   
-  .gallery-content__description {
-    font-family: 'Poppins', sans-serif;
+  &__description {
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: $color-primary-text;
     padding-bottom: 3rem;
   }
   
-  .gallery-content__btn{
+  &__btn {
     color: white;
     background-color: $color-primary-green;
     font-weight: bold;
@@ -54,4 +54,7 @@
     border: none;
     padding: 20px 25px;
   }
-  
+}
+
+
+
