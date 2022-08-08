@@ -1,56 +1,39 @@
 import React from "react";
 import "./about.css";
-// import about_us from "../../../assets/about_us.jpg";
+
 import vector_img from "../../../assets/vector-smart-object.png"
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
 
+import "slick-carousel/slick/slick-theme.css";
+import sliderimage1 from '../../../assets/aboutUsSlider/1.png'
+import sliderimage2 from '../../../assets/aboutUsSlider/2.png'
+import sliderimage3 from '../../../assets/aboutUsSlider/3.png'
+import sliderimage4 from '../../../assets/aboutUsSlider/4.png'
+import sliderimage5 from '../../../assets/aboutUsSlider/5.png'
+import sliderimage6 from '../../../assets/aboutUsSlider/6.png'
+import sliderimage7 from '../../../assets/aboutUsSlider/7.png'
+import { Avatar } from "@mui/material";
+import { ArrowBackIos, ArrowForwardIos } from "@mui/icons-material";
+
+const PreviousBtn = (props) => {
+  console.log(props);
+  const { arrowleft, onClick } = props;
+  return (
+    <div className={arrowleft} onClick={onClick}>
+      <ArrowBackIos className="backwardarrow" style={{ color: "white", fontSize: "3rem",marginTop:"13rem"}} />
+    </div>
+  );
+};
+const NextBtn = (props) => {
+  const { arrowright, onClick } = props;
+  return (
+    <div className={arrowright} onClick={onClick}>
+      <ArrowForwardIos className="forwardarrow" style={{ color: "white", fontSize: "3rem",marginTop:"13rem", }} />
+    </div>
+  );
+};
 const About = () => {
-  // const images = document.querySelectorAll(".slide"),
-  //   next = document.querySelector(".next"),
-  //   prev = document.querySelector(".prev");
-
-  // let current = 0;\
-
-  // function changeImage() {
-  //   images.forEach((img) => {
-  //     img.classList.remove("show");
-  //     img.style.display = "none";
-  //   });
-
-  //   images[current].classList.add("show");
-  //   images[current].style.display = "block";
-  // }
-
-  // // Calling first time
-  // changeImage();
-
-  // next.addEventListener("click", function () {
-  //   current++;
-
-  //   if (current > images.length - 1) {
-  //     current = 0;
-  //   } else if (current < 0) {
-  //     current = images.length - 1;
-  //   }
-
-  //   changeImage();
-  // });
-  // prev.addEventListener("click", function () {
-  //   current--;
-
-  //   if (current > images.length - 1) {
-  //     current = 0;
-  //   } else if (current < 0) {
-  //     current = images.length - 1;
-  //   }
-
-  //   changeImage();
-  // });
-
-  // // Auto change in 5 seconds
-
-  // setInterval(() => {
-  //   next.click();
-  // }, 5000);
 
   return (
     <div className="about-content" id="about">
@@ -71,35 +54,44 @@ const About = () => {
           <button className="about-content__btn">MORE ABOUT US</button>
         </div>
         <div className="about-content__wrapper--right">
-          {/* <div className="slider">
-            <div className="slide">
-              <img src={about_us} alt="" />
-              <div className="caption">Caption First</div>
-            </div>
-            <div className="slide">
-              <img src={about_us} alt="" />
-              <div className="caption">Caption Second</div>
-            </div>
-            <div className="slide">
-              <img src={about_us} alt="" />
-              <div className="caption">Caption Third</div>
-            </div>
-            <div className="slide">
-              <img src={about_us} alt="" />
-              <div className="caption">Caption Fourth</div>
-            </div>
-            <div className="slide">
-              <img src={about_us} alt="" />
-              <div className="caption">Caption Fifth</div>
-            </div>
-
-            <a className="prev">&#10094;</a>
-            <a className="next">&#10095;</a>
-          </div> */}
+          <div className="about__slider">
+              <Slider className="slider_cont"  prevArrow={<PreviousBtn/>} nextArrow={<NextBtn/>}
+               slidesToShow={1}
+               slidesToScroll={1}
+              dots
+               infinite={true}
+               speed={500}
+               autoplay={true}
+               autoplaySpeed={5000}>
+                <div >
+                  <img className="sliderimg_aboutus"src={sliderimage1} alt="" />
+                </div>
+                <div >
+                  <img className="sliderimg_aboutus" src={sliderimage2} alt="" />
+                </div>
+                <div >
+                  <img className="sliderimg_aboutus" src={sliderimage3} alt="" />
+                </div>
+                <div >
+                  <img className="sliderimg_aboutus" src={sliderimage4} alt="" />
+                </div>
+                <div >
+                  <img className="sliderimg_aboutus" src={sliderimage5} alt="" />
+                </div>
+                <div >
+                  <img className="sliderimg_aboutus" src={sliderimage6} alt="" />
+                </div>
+                <div >
+                  <img className="sliderimg_aboutus" src={sliderimage7} alt="" />
+                </div>
+              </Slider>
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
+
 export default About;
+

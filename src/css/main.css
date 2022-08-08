@@ -864,4 +864,33 @@ a {
 .slick-prev::before,
 .slick-next::before {
   display: none;
+}
+
+.about__slider {
+  height: 100%;
+  width: 80%;
+  margin-top: 30%;
+  margin-left: 10%;
+}
+
+.sliderimg_aboutus {
+  height: 28rem;
+  width: 28rem;
+  margin-left: 6%;
+  border-radius: 0.5rem;
+}
+
+.slider_cont {
+  width: 100%;
+  display: flex;
+}
+
+.forwardarrow {
+  background-color: #a3ad6f;
+  color: white;
+}
+
+.backwardarrow {
+  background-color: #a3ad6f;
+  padding-left: 0.6rem;
 }/*# sourceMappingURL=main.css.map */
