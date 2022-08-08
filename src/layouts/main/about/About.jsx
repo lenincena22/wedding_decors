@@ -13,7 +13,7 @@ import sliderimage4 from '../../../assets/aboutUsSlider/4.png'
 import sliderimage5 from '../../../assets/aboutUsSlider/5.png'
 import sliderimage6 from '../../../assets/aboutUsSlider/6.png'
 import sliderimage7 from '../../../assets/aboutUsSlider/7.png'
-import { Avatar } from "@mui/material";
+
 import { ArrowBackIos, ArrowForwardIos } from "@mui/icons-material";
 
 const PreviousBtn = (props) => {

@@ -893,4 +893,91 @@ a {
 .backwardarrow {
   background-color: #a3ad6f;
   padding-left: 0.6rem;
+}
+
+.contact__parent {
+  height: 60vh;
+  width: 100%;
+}
+
+.contact__logo {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  background-color: #a3ad6f;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.contact__cont {
+  height: 35vh;
+  width: 80%;
+  margin: 15% 10% 10% 10%;
+  background-color: white;
+  display: flex;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.shape {
+  height: inherit;
+  width: 33.3%;
+  position: relative;
+}
+
+.contact_border {
+  height: 60%;
+  width: 5px;
+  border-right: 1px solid black;
+  position: absolute;
+  top: 20%;
+  right: 0;
+}
+
+.address__icon {
+  font-size: 5rem;
+  padding: 1.5rem 0 0 2rem;
+}
+
+.address__icon1 {
+  font-size: 4.5rem;
+  padding: 1.8rem 0 0 1.5rem;
+}
+
+.address__icon2 {
+  font-size: 4.5rem;
+  padding: 1.8rem 0 0 1.8rem;
+}
+
+.contact__logo {
+  margin: -4rem 0 0 8rem;
+}
+
+.Contact__head {
+  font-family: "Courgette";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.contact_hed1 {
+  padding: 2rem 0 1rem 9.5rem;
+}
+
+.contact_hed2 {
+  padding: 2rem 0 1rem 9.8rem;
+}
+
+.contact_hed3 {
+  padding: 2rem 0 1rem 7.5rem;
+}
+
+.contact_dec {
+  padding: 0 0 0 4.5rem;
+}
+
+.contact_dec1 {
+  padding: 0 0 0 9rem;
+}
+
+.contact_dec2 {
+  padding: 0 0 0 7.3rem;
 }/*# sourceMappingURL=main.css.map */
