@@ -40,8 +40,8 @@ html,body {
 .navbar {
   height: 5rem;
   width: 100%;
-  background-color: $color-primary-header;
-  color: aqua;
+  background-color:#a3ad6f;
+  
   display: flex;
   justify-content: space-around;
 }
@@ -83,7 +83,8 @@ a {
 //   *************************************
 
 .nav-links {
-  color: white;
+  color: black;
+  font-weight: 500;
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
@@ -663,16 +664,58 @@ font-size: 1.5rem;
 .contact_dec2{
   padding: 0 0 0 7.3rem;
 }
-// About
+
+//footer
+.footer__parent__cont{
+  height: 65vh;
+  width: 100%;
+  
+}
+.footer__logo{
+  height: 40vh;
+  width: 50%;
+  overflow: hidden;
+  margin: 0 0 0 42.5% ;
+}
+.footer__logo_image{
+  margin-top: 10vh;
+  height: 30vh;
+  width: auto;
+}
+.footer__socialmedia{
+  height: 20vh;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
 
 
+.sm_footer_shape{
+  height: 5rem;
+  width: 5rem;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 2rem;
+  transition: .6s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.sm_footer_shape:hover{
+  transform: scale(1.2);
+}
 
-// gallery
-
-
-// Form
-
-
-
-
-// Feature
+.socialmedia__fotter{
+  height: 3rem;
+  width: 3rem;
+  margin: 1rem 0 0 1rem;
+}
+.footer_copyrights{
+  height: 8vh;
+  width: 100%;
+border-top: 1px solid black;
+}
+.fotter__copyrights__dec{
+  text-align: center;
+  padding-top: 1rem;
+}
