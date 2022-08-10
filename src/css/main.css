@@ -224,22 +224,57 @@ html, body {
   height: 25vh;
   width: 100%;
   display: flex;
+  justify-content: center;
 }
 
 .contact__num {
   height: 15vh;
-  width: 44%;
+  width: 33.3%;
   display: flex;
 }
 
 .mian__logo {
   height: 100%;
-  width: 54%;
+  width: 33.3%;
 }
 
 .main__logo__img {
   height: 100%;
   width: auto;
+  margin-left: 30%;
+}
+
+.event__dec {
+  height: auto;
+  width: auto;
+}
+
+.mian__event__detials {
+  height: 100%;
+  width: 33.3%;
+  display: flex;
+  gap: 2rem;
+}
+
+.events__happend, .event__location {
+  height: inherit;
+  width: auto;
+  display: flex;
+  margin-top: 2.5rem;
+}
+
+.event__plus {
+  font-size: 1.5rem;
+}
+
+.dec__event__main {
+  margin-left: 0.3rem;
+}
+
+.eventlocation {
+  height: 5rem;
+  width: auto;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
 
 .navbar {
@@ -274,10 +309,11 @@ a {
   height: inherit;
   width: 50%;
   padding-top: 8%;
+  display: flex;
 }
 
 .contact_cont h3 {
-  padding-left: 65%;
+  font-size: 2rem;
 }
 
 .callnow_cont {
@@ -287,8 +323,11 @@ a {
 }
 
 .call_now_img {
-  height: 40%;
+  height: 5rem;
   width: auto;
+  margin-left: 30%;
+  margin-right: 1rem;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
 
 .nav-links {
@@ -403,11 +442,52 @@ a {
   position: relative;
   height: 80vh;
   width: 100%;
-  background-image: url("../assets/header_img_main.png");
   background-size: cover;
   background-position: 0 -10rem;
+  animation: animatebg 16s alternate-reverse infinite;
 }
 
+@-webkit-keyframes animatebg {
+  0%, 100% {
+    background-image: url("../assets/header-bg.jpg");
+  }
+  16% {
+    background-image: url("../assets/headerSlider/3.png");
+  }
+  32% {
+    background-image: url("../assets/headerSlider/2.png");
+  }
+  48% {
+    background-image: url("../assets/headerSlider/4.png");
+  }
+  64% {
+    background-image: url("../assets/headerSlider/1.png");
+  }
+  80% {
+    background-image: url("../assets/headerSlider/5.png");
+  }
+}
+
+@keyframes animatebg {
+  0%, 100% {
+    background-image: url("../assets/header-bg.jpg");
+  }
+  16% {
+    background-image: url("../assets/headerSlider/3.png");
+  }
+  32% {
+    background-image: url("../assets/headerSlider/2.png");
+  }
+  48% {
+    background-image: url("../assets/headerSlider/4.png");
+  }
+  64% {
+    background-image: url("../assets/headerSlider/1.png");
+  }
+  80% {
+    background-image: url("../assets/headerSlider/5.png");
+  }
+}
 .header__content {
   font-style: normal;
   font-weight: 700;
