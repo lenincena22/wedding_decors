@@ -6,7 +6,7 @@ const menuItems = [
     },
     {
       title: "About",
-      url: "#",
+      url: "about",
       cName: "nav-links"
     },
     {
