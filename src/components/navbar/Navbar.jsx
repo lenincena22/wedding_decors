@@ -1,7 +1,13 @@
 import React, { useState } from "react";
 import menuItems from "../menuitems";
 import logo from "../../assets/logo-main.png";
-import callnow from "../../assets/call_image.png";
+import eventlocation from "../../assets/navbarimg/1.png";
+import eventimg from "../../assets/navbarimg/2.png";
+import whatsapplogo from "../../assets/navbarimg/whatsapp__skj__image.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
+// import callnow from "../../assets/call_image.png";
+import CountUp from "react-countup";
 
 export const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -12,16 +18,58 @@ export const Navbar = () => {
     <div>
       <div className="contact__details__home">
         <div className="contact__num">
+        
           <div className="contact_cont">
+          <img src={whatsapplogo} className="call_now_img" alt="" />
+          <div className="callus__detials">
             <h3>Call Us</h3>
             <h3>9095322466</h3>
+            </div>
           </div>
-          <div className="callnow_cont">
-            <img src={callnow} className="call_now_img" alt="" />
-          </div>
+        
         </div>
         <div className="mian__logo">
           <img className="main__logo__img" alt="timer" src={logo} />
+        </div>
+        <div className="mian__event__detials">
+          <div className="events__happend">
+            <div className="event__img__logo">
+              <img src={eventimg} className="eventlocation" alt="Eventlogo" />
+            </div>
+            <div className="event__dec">
+              <CountUp
+                className="counter"
+                style={{
+                  fontSize: "2.5rem",
+                  fontFamily: "sans-serif",
+                  fontWeight: "600",
+                }}
+                end={1500}
+                duration={3}
+              />
+              <span className="event__plus"><FontAwesomeIcon icon={faPlus}/></span>
+              <h3 className="dec__event__main">Events hosted</h3>
+            </div>
+          </div>
+          <div className="event__location">
+          <div className="event__img__logo">
+              <img src={eventlocation} className="eventlocation" alt="Eventlogo" />
+            </div>
+            <div className="event__dec">
+            <CountUp
+              className="counter"
+              style={{
+                fontSize: "2.5rem",
+                fontFamily: "sans-serif",
+                fontWeight: "600",
+              }}
+              end={100}
+              duration={3}
+            />
+             <span className="event__plus"><FontAwesomeIcon icon={faPlus}/></span>
+            <h3 className="dec__event__main">Location</h3>
+            </div>
+          </div>
         </div>
       </div>
       <nav className="navbar">
@@ -43,5 +91,8 @@ export const Navbar = () => {
     </div>
   );
 };
+
+/* Call this function with a string containing the ID name to
+ * the element containing the number you want to do a count animation on.*/
 
 export default Navbar;
