@@ -43,14 +43,21 @@
     height: 300px;
     position: relative;
     cursor: pointer;
+    transition: all 0.2s;
+    
+    &:hover {
+      transform: scale(1.08);
+    }
 
     & img {
       width: 100%;
       height: 100%;
       // border: 3px solid black;
+      
     }
 
     & .border {
+      display: block;
       position: absolute;
       width: 380px;
       height: 280px;
