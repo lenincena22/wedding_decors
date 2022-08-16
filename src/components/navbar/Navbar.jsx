@@ -4,6 +4,7 @@ import logo from "../../assets/logo-main.png";
 import eventlocation from "../../assets/navbarimg/1.png";
 import eventimg from "../../assets/navbarimg/2.png";
 import whatsapplogo from "../../assets/navbarimg/whatsapp__skj__image.png";
+// import maillogo from "../../assets/navbarimg/mail__skj.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 // import callnow from "../../assets/call_image.png";
@@ -25,6 +26,7 @@ export const Navbar = () => {
             <h3>Call Us</h3>
             <h3>9095322466</h3>
             </div>
+            {/* <img src={maillogo} className="call_now_img" alt="" /> */}
           </div>
         
         </div>
