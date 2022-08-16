@@ -26,7 +26,7 @@ const menuItems = [
     },
     {
         title: "Contact",
-        url: "#",
+        url: "#testimonial",
         cName: "nav-links"
       }
   ];
