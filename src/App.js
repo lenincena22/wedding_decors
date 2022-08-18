@@ -1,9 +1,20 @@
-import React from 'react';
-import Navbar from './components/navbar/Navbar';
-import { Header, Feature, About, Testimonal, Gallery, Contact, Form, Footer } from "./layouts"
+import React from "react";
+import Navbar from "./components/navbar/Navbar";
 
-import './App.css';
-import './css/main.css';
+import {
+  Header,
+  Feature,
+  About,
+  Testimonal,
+  Gallery,
+  Contact,
+  Form,
+  Footer
+} from "./layouts";
+
+
+import "./App.css";
+import "./css/main.css";
 
 function App() {
   return (
@@ -17,6 +28,7 @@ function App() {
       <Contact />
       <Form />
       <Footer />
+      
     </div>
   );
 }
