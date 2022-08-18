@@ -1,7 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-
 import "slick-carousel/slick/slick-theme.css";
 import { Avatar } from "@mui/material";
 import { ArrowBackIos, ArrowForwardIos } from "@mui/icons-material";
@@ -25,7 +24,7 @@ const NextBtn = (props) => {
 };
 const Testimonal = () => {
   return (
-    <div className="testmonial__cont">
+    <div className="testmonial__cont" id="testimonial">
       <div className="inner_cont_testimonial">
         <h1 className="testimonials__header">Testimonials</h1>
         <Slider prevArrow={<PreviousBtn/>} nextArrow={<NextBtn/>}
