@@ -8,6 +8,7 @@ import whatsapplogo from "../../assets/navbarimg/whatsapp__skj__image.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 // import callnow from "../../assets/call_image.png";
+import {WhatsApp } from "@mui/icons-material";
 import CountUp from "react-countup";
 
 export const Navbar = () => {
@@ -32,10 +33,12 @@ export const Navbar = () => {
         </div>
         <div className="mian__logo">
           <img className="main__logo__img" alt="timer" src={logo} />
+          <a href="https://api.whatsapp.com/send/?phone=919095622466&text&type=phone_number&app_absent=0" className="float"><WhatsApp className="my-float" style={{fontSize: "3rem", marginTop:"10%",marginLeft:"5%"}} /></a>
         </div>
         <div className="mian__event__detials">
           <div className="events__happend">
             <div className="event__img__logo">
+             
               <img src={eventimg} className="eventlocation" alt="Eventlogo" />
             </div>
             <div className="event__dec">

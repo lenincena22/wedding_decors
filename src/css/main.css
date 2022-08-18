@@ -1365,6 +1365,23 @@ a {
     overflow: hidden;
     margin: 0%;
   }
+  .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    left: 2%;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+  .my-float {
+    font-size: 2rem;
+  }
 }
 @media only screen and (max-width: 375px) {
   .header__cont {
@@ -1572,4 +1589,39 @@ a {
     padding: 20px 25px;
     margin-left: 2rem;
   }
+  .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    left: 2%;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+  .my-float {
+    font-size: 2rem;
+  }
+}
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  font-size: 2rem;
 }/*# sourceMappingURL=main.css.map */
