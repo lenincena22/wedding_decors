@@ -256,12 +256,17 @@
   height: 300px;
   position: relative;
   cursor: pointer;
+  transition: all 0.2s;
+}
+.feature-content__card--img:hover {
+  transform: scale(1.08);
 }
 .feature-content__card--img img {
   width: 100%;
   height: 100%;
 }
 .feature-content__card--img .border {
+  display: block;
   position: absolute;
   width: 380px;
   height: 280px;
