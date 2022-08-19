@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import { Avatar } from "@mui/material";
 import { ArrowBackIos, ArrowForwardIos } from "@mui/icons-material";
 
-
 const PreviousBtn = (props) => {
   console.log(props);
   const { className, onClick } = props;
