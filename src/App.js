@@ -1,23 +1,41 @@
-import React from 'react';
-import Navbar from './components/navbar/Navbar';
-import { Header, Feature, About, Testimonal, Gallery, Contact, Form, Footer } from "./layouts"
+import React from "react";
+import Navbar from "./components/navbar/Navbar";
+import GallerySection from "./components/gallerySection/GallerySection";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  Header,
+  Feature,
+  About,
+  Testimonal,
+  Gallery,
+  Contact,
+  Form,
+  Footer,
+} from "./layouts";
 
-import './App.css';
-import './css/main.css';
+import "./App.css";
+import "./css/main.css";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Header />
-      <Feature />
-      <About />
-      <Testimonal />
-      <Gallery />
-      <Contact />
-      <Form />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        
+
+        <Routes>
+          <Route path="/gallery" element={<GallerySection />}></Route>
+          <Route path='/' element={<><Navbar />
+        <Header />
+        <Feature />
+        <About />
+        <Testimonal />
+        <Gallery />
+        <Contact />
+        <Form />
+        <Footer /></>} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
