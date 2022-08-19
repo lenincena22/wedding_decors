@@ -17,12 +17,14 @@
     letter-spacing: 2px;
     font-size: 18px;
     padding-bottom: 2rem;
+    padding-left: 2rem;
   }
 
   &__caption {
     font-family: "Courgette";
     font-size: 38px;
     padding-bottom: 2rem;
+    padding-left: 2rem;
   }
 
   &__description {
@@ -31,10 +33,12 @@
     font-weight: 400;
     color: $color-primary-text;
     padding-bottom: 3rem;
+    padding-left: 2rem;
   }
 
   &__vector-img {
     padding-bottom: 2rem;
+    padding-left: 2rem;
   }
 
   &__btn {
@@ -44,6 +48,7 @@
     letter-spacing: 2px;
     border: none;
     padding: 20px 25px;
+    margin-left: 2rem;
   }
 }
 
