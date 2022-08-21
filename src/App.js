@@ -1,14 +1,20 @@
 import React from 'react';
 import Navbar from './components/navbar/Navbar';
+import GallerySection from "./components/gallerySection/GallerySection";
 import { Header, Feature, About, Testimonal, Gallery, Contact, Form, Footer } from "./layouts"
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import './css/main.css';
 
 function App() {
   return (
+    <Router>
     <div className="App">
-      <Navbar />
+
+
+      <Routes>
+        <Route path="/gallery" element={<GallerySection />}></Route>
+        <Route path='/' element={<><Navbar />
       <Header />
       <Feature />
       <About />
@@ -16,8 +22,10 @@ function App() {
       <Gallery />
       <Contact />
       <Form />
-      <Footer />
+      <Footer /></>} />
+      </Routes>
     </div>
+  </Router>
   );
 }
 
