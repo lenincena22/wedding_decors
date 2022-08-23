@@ -1402,9 +1402,12 @@ a {
     font-weight: bold;
     letter-spacing: 2px;
     border: none;
+    transition: transform .2s;
     padding: 20px 25px;
     margin-left: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   }
+ 
 
   .float {
     position: fixed;

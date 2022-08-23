@@ -102,8 +102,16 @@
   font-weight: bold;
   letter-spacing: 2px;
   border: none;
+  border-radius: .2rem;
   padding: 20px 25px;
   margin-left: 2rem;
+  cursor: pointer;
+  transition: 0.6s;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.about-content__btn:hover{
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
 
 .gallery-content {
@@ -1720,8 +1728,10 @@ a {
     font-weight: bold;
     letter-spacing: 2px;
     border: none;
+    transition: transform 0.2s;
     padding: 20px 25px;
     margin-left: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   }
   .float {
     position: fixed;
