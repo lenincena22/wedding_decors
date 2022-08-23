@@ -5,6 +5,7 @@ import { faLocationDot,faPhone,faEnvelope } from '@fortawesome/free-solid-svg-ic
 const Contact = () => {
   return (
     <div className="contact__parent">
+      <h1 className="contact__header">Contact Us</h1>
       <div className="contact__cont">
         <div className="cont-1 shape">
           <div className="contact__logo item1 "><FontAwesomeIcon className="address__icon contact_icon_posistion" icon={faLocationDot} /></div>

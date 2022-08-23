@@ -14,7 +14,7 @@ function App() {
 
       <Routes>
         <Route path="/gallery" element={<GallerySection />}></Route>
-        <Route path='/' element={<><Navbar />
+        <Route path='/wedding_decors' element={<><Navbar />
       <Header />
       <Feature />
       <About />
