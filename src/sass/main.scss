@@ -683,7 +683,7 @@ a {
 
 .about__slider {
   height: 100%;
-  width: 85%;
+  width: 80%;
   margin-top: 20%;
   margin-left: 10%;
   margin-top: 5rem;
@@ -693,7 +693,7 @@ a {
 .sliderimg_aboutus {
   height: 28rem;
   width: 28rem;
-  margin-left: 4%;
+  margin-left: 6%;
   border-radius: .5rem;
 
 }
@@ -1461,4 +1461,37 @@ a {
 .feature__item__4 {
   background-image: url('../assets/aboutUsSlider/8.png');
   background-size: cover;
+}
+
+// media qurey for bigger screeeb size
+@media screen and (min-width:1900px) {
+  .sliderimg_aboutus {
+    height: 28rem;
+    width: 28rem;
+    margin-left: 6%;
+    border-radius: .5rem;
+  
+  }
+  
+.about__slider {
+  height: 100%;
+  width: 65%;
+  margin-top: 20%;
+  margin-left: 20%;
+  margin-top: 5rem;
+  margin-bottom: 6rem;
+}
+.form__table {
+  text-align: left;
+  padding-bottom: 3rem;
+  margin-top: 3rem;
+  margin-left: 38%;
+}
+.footer__logo_image {
+  height: 12rem;
+  width: 12rem;
+  position: absolute;
+  top: 0;
+  right: 44.8%;
+}
 }
