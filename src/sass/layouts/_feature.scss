@@ -29,6 +29,7 @@
     align-items: center;
     justify-content: space-around;
     margin-top: 4rem;
+    
   }
 
   &__card--caption {
@@ -43,10 +44,12 @@
     height: 300px;
     position: relative;
     cursor: pointer;
-    transition: all 0.2s;
+    transition: all .6s;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     
     &:hover {
       transform: scale(1.08);
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
 
     & img {

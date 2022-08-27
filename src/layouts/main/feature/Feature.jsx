@@ -45,6 +45,33 @@ const Feature = () => {
           <div className="feature-content__card--caption">Themed Weddings</div>
         </div>
       </div>
+      <div className="feature-content__cards">
+        <div className="feature-content__card">
+          <div className="feature-content__card--img feature__item__4">
+            {/* <img src={pandhal} alt="" /> */}
+            <div className="border"></div>
+          </div>
+          <div className="feature-content__card--caption ">
+            Pandal
+          </div>
+        </div>
+        <div className="feature-content__card">
+          <div className="feature-content__card--img feature__item__5">
+            {/* <img src={outdoor} alt="" /> */}
+            <div className="border"></div>
+          </div>
+          <div className="feature-content__card--caption">
+            Grand outdoor Wedding
+          </div>
+        </div>
+        <div className="feature-content__card">
+          <div className="feature-content__card--img feature__item__6" >
+            {/* <img src={Garlands} alt="" /> */}
+            <div className="border"></div>
+          </div>
+          <div className="feature-content__card--caption">Garlands</div>
+        </div>
+      </div>
     </div>
   );
 };

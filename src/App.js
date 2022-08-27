@@ -17,29 +17,50 @@ import "./css/main.css";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Routes>
-          <Route path="/gallery" element={<GallerySection />}></Route>
-          <Route
-            path="/"
-            element={
-              <>
-                <Navbar />
-                <Header />
-                <Feature />
-                <About />
-                <Testimonal />
-                <Gallery />
-                <Contact />
-                <Form />
-                <Footer />
-              </>
-            }
-          />
-        </Routes>
-      </div>
-    </Router>
+//     <Router>
+// <<<<<<< HEAD
+//       <div className="App">
+//         <Routes>
+//           <Route path="/gallery" element={<GallerySection />}></Route>
+//           <Route
+//             path="/"
+//             element={
+//               <>
+//                 <Navbar />
+//                 <Header />
+//                 <Feature />
+//                 <About />
+//                 <Testimonal />
+//                 <Gallery />
+//                 <Contact />
+//                 <Form />
+//                 <Footer />
+//               </>
+//             }
+//           />
+//         </Routes>
+//       </div>
+//     </Router>
+// =======
+<Router>
+    <div className="App">
+
+
+      <Routes>
+        <Route path="/gallery" element={<GallerySection />}></Route>
+        <Route path='/wedding_decors' element={<><Navbar />
+      <Header />
+      <Feature />
+      <About />
+      <Testimonal />
+      <Gallery />
+      <Contact />
+      <Form />
+      <Footer /></>} />
+      </Routes>
+    </div>
+  </Router>
+// >>>>>>> 164ba844fe244bc2a76fbc9d3b24b057a0f26606
   );
 }
 
