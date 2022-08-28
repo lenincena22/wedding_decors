@@ -19,21 +19,30 @@ function App() {
   return (
     <Router>
       <div className="App">
-
-      <Routes>
-        <Route path="/wedding_decors/gallery" element={<GallerySection />}></Route>
-        <Route path='/wedding_decors' element={<><Navbar />
-      <Header />
-      <Feature />
-      <About />
-      <Testimonal />
-      <Gallery />
-      <Contact />
-      <Form />
-      <Footer /></>} />
-      </Routes>
-    </div>
-  </Router>
+        <Routes>
+          <Route
+            path="/wedding_decors/gallery"
+            element={<GallerySection />}
+          ></Route>
+          <Route
+            path="/wedding_decors"
+            element={
+              <>
+                <Navbar />
+                <Header />
+                <Feature />
+                <About />
+                <Testimonal />
+                <Gallery />
+                <Contact />
+                <Form />
+                <Footer />
+              </>
+            }
+          />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

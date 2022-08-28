@@ -3,7 +3,7 @@ import headerfancyline from '../../assets/header__fancyline.png'
 
 export const Header = () => {
   return (
-    <div className='header__cont'>
+    <div className='header__cont' id='header'>
       <div className="inner_cont">
         <div class="animate seven">
 			<span className='header_dec_space1'>W</span><span>e'</span><span>ll</span>&nbsp;<span >make</span>&nbsp;
