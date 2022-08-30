@@ -5,8 +5,8 @@ import eventlocation from "../../assets/navbarimg/1.png";
 import eventimg from "../../assets/navbarimg/2.png";
 import whatsapplogo from "../../assets/navbarimg/whatsapp__skj__image.png";
 // import maillogo from "../../assets/navbarimg/mail__skj.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {WhatsApp } from "@mui/icons-material";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { WhatsApp } from "@mui/icons-material";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 // import callnow from "../../assets/call_image.png";
 import CountUp from "react-countup";
@@ -20,20 +20,26 @@ export const Navbar = () => {
     <div>
       <div className="contact__details__home">
         <div className="contact__num">
-        
           <div className="contact_cont">
-          <img src={whatsapplogo} className="call_now_img" alt="" />
-          <div className="callus__detials">
-            <h3>Call Us</h3>
-            <h3>9095322466</h3>
+            <img src={whatsapplogo} className="call_now_img" alt="" />
+            <div className="callus__detials">
+              <h3>Call Us</h3>
+              <h3>9095322466</h3>
             </div>
             {/* <img src={maillogo} className="call_now_img" alt="" /> */}
           </div>
-        
         </div>
         <div className="mian__logo">
           <img className="main__logo__img" alt="timer" src={logo} />
-          <a href="https://api.whatsapp.com/send/?phone=919095622466&text&type=phone_number&app_absent=0" className="float"><WhatsApp className="my-float" style={{fontSize: "3rem", marginTop:"10%",marginLeft:"5%"}} /></a>
+          <a
+            href="https://api.whatsapp.com/send/?phone=919095622466&text&type=phone_number&app_absent=0"
+            className="float"
+          >
+            <WhatsApp
+              className="my-float"
+              style={{ fontSize: "3rem", marginTop: "10%", marginLeft: "5%" }}
+            />
+          </a>
         </div>
         <div className="mian__event__detials">
           <div className="events__happend">
@@ -51,27 +57,35 @@ export const Navbar = () => {
                 end={1500}
                 duration={3}
               />
-              <span className="event__plus"><FontAwesomeIcon icon={faPlus}/></span>
+              <span className="event__plus">
+                <FontAwesomeIcon icon={faPlus} />
+              </span>
               <h3 className="dec__event__main">Events hosted</h3>
             </div>
           </div>
           <div className="event__location">
-          <div className="event__img__logo">
-              <img src={eventlocation} className="eventlocation" alt="Eventlogo" />
+            <div className="event__img__logo">
+              <img
+                src={eventlocation}
+                className="eventlocation"
+                alt="Eventlogo"
+              />
             </div>
             <div className="event__dec">
-            <CountUp
-              className="counter"
-              style={{
-                fontSize: "2.5rem",
-                fontFamily: "sans-serif",
-                fontWeight: "600",
-              }}
-              end={100}
-              duration={3}
-            />
-             <span className="event__plus"><FontAwesomeIcon icon={faPlus}/></span>
-            <h3 className="dec__event__main">Location</h3>
+              <CountUp
+                className="counter"
+                style={{
+                  fontSize: "2.5rem",
+                  fontFamily: "sans-serif",
+                  fontWeight: "600",
+                }}
+                end={100}
+                duration={3}
+              />
+              <span className="event__plus">
+                <FontAwesomeIcon icon={faPlus} />
+              </span>
+              <h3 className="dec__event__main">Location</h3>
             </div>
           </div>
         </div>
