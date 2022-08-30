@@ -21,8 +21,10 @@ const Feature = () => {
       <div className="feature-content__cards">
         <div className="feature-content__card">
           <div className="feature-content__card--img">
-            <img src={contemporary_weddings} alt="" />
-            <div className="border"></div>
+            <a href="#gallery">
+              <img src={contemporary_weddings} alt="" />
+              <div className="border"></div>
+            </a>
           </div>
           <div className="feature-content__card--caption">
             Contemporary Weddings
@@ -30,8 +32,10 @@ const Feature = () => {
         </div>
         <div className="feature-content__card">
           <div className="feature-content__card--img">
-            <img src={traditional_weddings} alt="" />
-            <div className="border"></div>
+            <a href="#gallery">
+              <img src={traditional_weddings} alt="" />
+              <div className="border"></div>
+            </a>
           </div>
           <div className="feature-content__card--caption">
             Traditional Weddings
@@ -39,8 +43,10 @@ const Feature = () => {
         </div>
         <div className="feature-content__card">
           <div className="feature-content__card--img">
-            <img src={themed_weddings} alt="" />
-            <div className="border"></div>
+            <a href="#gallery">
+              <img src={themed_weddings} alt="" />
+              <div className="border"></div>
+            </a>
           </div>
           <div className="feature-content__card--caption">Themed Weddings</div>
         </div>
@@ -51,9 +57,7 @@ const Feature = () => {
             {/* <img src={pandhal} alt="" /> */}
             <div className="border"></div>
           </div>
-          <div className="feature-content__card--caption ">
-            Pandal
-          </div>
+          <div className="feature-content__card--caption ">Pandal</div>
         </div>
         <div className="feature-content__card">
           <div className="feature-content__card--img feature__item__5">
@@ -65,7 +69,7 @@ const Feature = () => {
           </div>
         </div>
         <div className="feature-content__card">
-          <div className="feature-content__card--img feature__item__6" >
+          <div className="feature-content__card--img feature__item__6">
             {/* <img src={Garlands} alt="" /> */}
             <div className="border"></div>
           </div>

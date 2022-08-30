@@ -4,7 +4,7 @@ import { faLocationDot,faPhone,faEnvelope } from '@fortawesome/free-solid-svg-ic
 
 const Contact = () => {
   return (
-    <div className="contact__parent">
+    <div className="contact__parent" id="contact">
       <h1 className="contact__header">Contact Us</h1>
       <div className="contact__cont">
         <div className="cont-1 shape">

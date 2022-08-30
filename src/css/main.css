@@ -290,6 +290,7 @@
   letter-spacing: 2px;
   border: none;
   padding: 20px 25px;
+  cursor: pointer;
 }
 .form-content__wrapper input {
   display: inline-block;
