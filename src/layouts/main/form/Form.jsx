@@ -1,10 +1,10 @@
 import React from "react";
 import divider_title from "../../../assets/divider_title.webp";
 import emailjs from "emailjs-com";
+import Swal from "sweetalert2";
 
 const Form = () => {
-
-  const sendEmail =  (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
@@ -16,6 +16,11 @@ const Form = () => {
       )
       .then(
         (result) => {
+          Swal.fire({
+            title: "Success",
+            type: "Success",
+            text: `Thankyou for submiting ✨`,
+          });
           console.log(result.text);
         },
         (error) => {
@@ -23,7 +28,7 @@ const Form = () => {
         }
       );
     e.target.reset();
-  }
+  };
 
   return (
     <div className="form-content" id="form">
@@ -43,16 +48,21 @@ const Form = () => {
                 <td>
                   <label htmlFor="name">Name*</label>
                 </td>
-                <td>
-                  <label htmlFor="email">Email*</label>
-                </td>
               </tr>
               <tr>
                 <td>
                   <input type="text" id="name" name="name" size="30" />
                 </td>
+              </tr>
+              <tr>
+                {" "}
                 <td>
-                  <input type="email" id="email" name="email" size="30" />
+                  <label className="form__email-lable" htmlFor="email">Email*</label>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input  type="email" id="email" name="email" size="30" />
                 </td>
               </tr>
               <tr>
@@ -72,7 +82,9 @@ const Form = () => {
                 </td>
               </tr>
             </table>
-            <button type="submit" className="form-content__btn">SEND MESSAGE</button>
+            <button type="submit" className="form-content__btn">
+              SEND MESSAGE
+            </button>
             {/* <input type="submit" className="form-content__btn" value="SEND MESSAGE" /> */}
           </form>
         </div>

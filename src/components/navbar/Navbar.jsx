@@ -17,7 +17,7 @@ export const Navbar = () => {
     setActive(!active);
   };
   return (
-    <div>
+    <div className="navbar__parent__cont">
       <div className="contact__details__home">
         <div className="contact__num">
           <div className="contact_cont">

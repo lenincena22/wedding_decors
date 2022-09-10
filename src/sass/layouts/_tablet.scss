@@ -1,5 +1,189 @@
 @media (max-width: 820px) {
-    .contact__details__home{
-        display: none;
+    .contact__num,.mian__event__detials{
+        display: none !important;
+    }
+    .main__logo__img{
+        margin-left: 0% !important;
+    }
+    .inner_cont {
+        height: 20rem;
+        width: 80% !important;
+        position: absolute;
+        right:0% !important;
+        top: 0%;
+        transform: translate(-50%, -50%);
+      }
+ 
+      .header_dec_space {
+        padding: 0 0 0 40% !important;
+      }
+    
+      .header_dec_space1 {
+        padding: 0 0 0 12% !important;
+      }
+      .header__fancyline {
+        padding: 0 0 0 26% !important;
+    
+      }
+      .header__cont {
+        position: relative;
+        height: 80vh;
+        width: 100%;
+        background-image: url("../assets/header-bg.jpg");
+        background-size: cover;
+        background-position: -32rem -10rem !important;
+        background-repeat: no-repeat;
+        // animation: animatebg 16s alternate-reverse infinite;
+      }
+      .about-content__wrapper {
+        flex-direction: column !important;
+      }
+      .about-content__wrapper--left,
+      .about-content__wrapper--right {
+        height: inherit !important;
+        width: 100% !important;
+    
+      }
+      .testmonial__cont{
+        height: 31rem !important;
+      }
+      .gallery-content__wrapper--left {
+        display: none !important;
+      }
+    
+      .gallery-content__wrapper--right,
+      .gallery-content__wrapper--left {
+        height: inherit ;
+        width: 100% !important;
+        margin: 0rem 0 2rem 2rem !important;
+      }
+      .gallery-content__title{
+        margin-top: -6rem !important;
+      }
+      .contact__parent {
+        height: 60vh !important;
+        width: 100%;
+        margin-bottom: 0rem !important;
+      }
+      .form-content{
+        background-image: none;
+        background-color: $color-primary-grey;
+      }
+    
+      .contact__logo {
+        height: 4rem !important;
+        width: 4rem !important;
+        border-radius: 50%;
+        background-color: #a3ad6f;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      }
+    
+      .contact__cont {
+        height: auto !important;
+        width: 60% !important;
+        margin: 15% 10% 5% 20% !important;
+        background-color: white;
+        display: flex !important;
+        flex-direction: column !important;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      }
+    
+      .shape {
+        height: 10rem !important;
+        width: 18rem !important;
+        position: relative !important;
+      }
+    
+      .contact_border {
+        height: 60% !important;
+        width: 5px !important;
+        border-right: 1px solid black !important;
+        position: absolute !important;
+        top: 20% !important;
+        right: 0 !important;
+      }
+    
+      .address__icon {
+        font-size: 3rem !important;
+        padding: .5rem 0 0 1rem !important;
+        color: white;
+    
+      }
+    
+      .address__icon1 {
+        font-size: 2.5rem !important;
+        padding: .9rem 0 0 .7rem !important;
+        color: white;
+      }
+    
+      .address__icon2 {
+        font-size: 2.5rem !important;
+        padding: .9rem 0 0 .9rem !important;
+        color: white;
+      }
+    
+      .Contact__head {
+        font-family: 'Courgette';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5rem;
+    
+      }
+    
+      .contact_hed1 {
+        padding: 0 0 0 2rem !important;
+      }
+    
+      .contact_hed2 {
+        padding: 0 0 0 2rem !important;
+      }
+    
+      .contact_hed3 {
+        padding: 0 0 0 2rem !important;
+      }
+    
+      .contact_dec {
+        padding: 0 0 0 2rem !important;
+      }
+    
+      .contact_dec1 {
+        padding: 0 0 0 2rem !important;
+      }
+    
+      .contact_dec2 {
+        padding: 0 0 0 2rem !important;
+      }
+    
+      .contact__logo {
+        margin: 1rem 0 1rem 2rem !important;
+      }
+    
+      .contact_border {
+        height: 5px !important;
+        width: 60% !important;
+        border-bottom: 1px solid black;
+        position: absolute !important;
+        top: 100% !important;
+        left: 0 !important;
+      }
+    .form__table {
+        text-align: left !important;
+        padding-bottom: 3rem !important;
+        margin-top: 3rem !important;
+        margin-left: 25% !important;
+      }
+    .form-content{
+      height: 70vh;
+    }
+    .footer__parent__cont {
+      height: 40vh !important;
+      width: 100% !important;
+    
+    }
+    .footer__logo{
+      height: 12rem !important;
+    }
+    .footer__logo_image{
+      right: 38% !important;
     }
 }
