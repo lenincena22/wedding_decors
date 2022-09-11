@@ -8,6 +8,7 @@
 @import "./layouts/form";
 @import "./layouts/header";
 @import "./layouts/feature";
+@import "./layouts/tablet";
 
 * {
   padding: 0%;
@@ -983,15 +984,25 @@ a {
   .gallery-content__wrapper--left {
     height: inherit;
     width: 100%;
-    margin: 2rem 0 2rem 2rem;
+    margin: 2rem 0 2rem 0rem;
 
   }
-
+  .gallery-content__title{
+    padding-top: 2rem;
+  }
+  .testimonials__header{
+    text-align: left;
+    margin: 1rem 0 0 -2rem;
+  }
   //contact page
   .contact__parent {
     height: 60vh;
     width: 100%;
     margin-bottom: 15rem;
+  }
+  .form-content{
+    background-image: none;
+    background-color: $color-primary-grey;
   }
 
   .contact__logo {
