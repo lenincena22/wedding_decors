@@ -1140,6 +1140,17 @@ a {
     width: 100%;
   
   }
+  .location_img{
+    height:30rem !important;
+    width: auto;
+    margin-left: 2rem;
+  }
+  .location_parent{
+    height: 60vh !important;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
 
 }
 
@@ -1438,6 +1449,9 @@ a {
   .my-float {
     font-size: 2rem;
   }
+
+
+
 }
 
 .float {
@@ -1505,4 +1519,32 @@ a {
   top: 0;
   right: 44.8%;
 }
+.location_parent{
+  height: 80vh !important;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+}
+
+//loaction desktop
+.location_parent_main{
+  display: flex;
+  flex-direction: column;
+  
+}
+.location_parent{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.location_header{
+  text-align: center;
+  font-family:'Courgette';
+  font-size: 4rem;
+}
+.location_img{
+  height: 40rem;
+  width: auto;
 }
