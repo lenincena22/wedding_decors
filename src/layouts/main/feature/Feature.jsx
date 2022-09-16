@@ -1,6 +1,6 @@
 import React from "react";
 import divider_title from "../../../assets/divider_title.webp";
-import contemporary_weddings from "../../../assets/category-contemporary_wedding.jpg";
+import Birthdayevents from "../../../assets/IMG_5729.jpg";
 import traditional_weddings from "../../../assets/category-traditional_wedding.jpg";
 import themed_weddings from "../../../assets/category-themed_wedding.jpg";
 
@@ -22,12 +22,12 @@ const Feature = () => {
         <div className="feature-content__card">
           <div className="feature-content__card--img">
             <a href="#gallery">
-              <img src={contemporary_weddings} alt="" />
+              <img src={Birthdayevents} alt="" />
               <div className="border"></div>
             </a>
           </div>
           <div className="feature-content__card--caption">
-            Contemporary Weddings
+            Birthday events
           </div>
         </div>
         <div className="feature-content__card">

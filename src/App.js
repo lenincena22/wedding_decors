@@ -10,9 +10,11 @@ import {
   Contact,
   Form,
   Footer,
+  
 } from "./layouts";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
+import Location from "./layouts/Location/Location";
 import "./css/main.css";
 
 function App() {
@@ -31,6 +33,8 @@ function App() {
                 <Navbar />
                 <Header />
                 <Feature />
+                <Location/>
+                
                 <About />
                 <Testimonal />
                 <Gallery />
