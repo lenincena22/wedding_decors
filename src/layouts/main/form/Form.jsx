@@ -35,7 +35,7 @@ const Form = () => {
       <div className="form-content__wrapper">
         {/* <img className="form-content__bg-img" src={form_bg} alt="" /> */}
         <div className="form-content__wrapper--right">
-          <p className="form-content__caption">Give Us a Feedback</p>
+          <p className="form-content__caption">Get in touch with us</p>
           <p className="form-content__title">CONTACT FORM</p>
           <img
             className="form-content__divider-img"

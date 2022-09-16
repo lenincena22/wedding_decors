@@ -6,16 +6,30 @@ import eventimg from "../../assets/navbarimg/1.png";
 import whatsapplogo from "../../assets/navbarimg/whatsapp__skj__image.png";
 // import maillogo from "../../assets/navbarimg/mail__skj.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { WhatsApp } from "@mui/icons-material";
+import {  WhatsApp } from "@mui/icons-material";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 // import callnow from "../../assets/call_image.png";
 import CountUp from "react-countup";
+// import { Link } from "react-scroll";
+
+
 
 export const Navbar = () => {
   const [active, setActive] = useState(false);
   const handleClick = () => {
     setActive(!active);
   };
+
+  document.querySelectorAll('a[href^="#"]').forEach(anhor =>{
+    anhor.addEventListener("click", function(e){
+      e.preventDefault();
+      document.querySelector(this.getAttribute("href")).scrollIntoView({
+        behavior : "smooth"
+      })
+    })
+  })
+  
+
   return (
     <div className="navbar__parent__cont">
       <div className="contact__details__home">
@@ -98,6 +112,17 @@ export const Navbar = () => {
                 <a href={item.url} className={item.cName}>
                   {item.title}
                 </a>
+                {/* <Link
+                className={item.cName}
+                  to={item.url}
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  {item.title}
+                </Link> */}
+                
               </li>
             );
           })}
