@@ -3,7 +3,7 @@ import divider_title from "../../../assets/divider_title.webp";
 import Birthdayevents from "../../../assets/IMG_5729.jpg";
 import traditional_weddings from "../../../assets/category-traditional_wedding.jpg";
 import themed_weddings from "../../../assets/category-themed_wedding.jpg";
-
+import garlands from "../../../assets/aboutUsSlider/10.JPG"
 const Feature = () => {
   return (
     <div className="feature-content" id="feature">
@@ -22,23 +22,12 @@ const Feature = () => {
         <div className="feature-content__card">
           <div className="feature-content__card--img">
             <a href="#gallery">
-              <img src={Birthdayevents} alt="" />
-              <div className="border"></div>
-            </a>
-          </div>
-          <div className="feature-content__card--caption">
-            Birthday events
-          </div>
-        </div>
-        <div className="feature-content__card">
-          <div className="feature-content__card--img">
-            <a href="#gallery">
               <img src={traditional_weddings} alt="" />
               <div className="border"></div>
             </a>
           </div>
           <div className="feature-content__card--caption">
-            Traditional Weddings
+          Traditional Weddings
           </div>
         </div>
         <div className="feature-content__card">
@@ -48,7 +37,18 @@ const Feature = () => {
               <div className="border"></div>
             </a>
           </div>
-          <div className="feature-content__card--caption">Themed Weddings</div>
+          <div className="feature-content__card--caption">
+          Themed Weddings
+          </div>
+        </div>
+        <div className="feature-content__card">
+          <div className="feature-content__card--img feature__item__3">
+            <a href="#gallery">
+              
+              <div className="border"></div>
+            </a>
+          </div>
+          <div className="feature-content__card--caption">Garlands</div>
         </div>
       </div>
       <div className="feature-content__cards">
@@ -73,7 +73,7 @@ const Feature = () => {
             {/* <img src={Garlands} alt="" /> */}
             <div className="border"></div>
           </div>
-          <div className="feature-content__card--caption">Garlands</div>
+          <div className="feature-content__card--caption">Birthday Events</div>
         </div>
       </div>
     </div>

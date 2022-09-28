@@ -43,45 +43,19 @@ const Form = () => {
             alt=""
           />
           <form action="" onSubmit={sendEmail}>
-            <table className="form__table">
-              <tr>
-                <td>
-                  <label htmlFor="name">Name*</label>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <input type="text" id="name" name="name" size="30" />
-                </td>
-              </tr>
-              <tr>
-                {" "}
-                <td>
-                  <label className="form__email-lable" htmlFor="email">Email*</label>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <input  type="email" id="email" name="email" size="30" />
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <br />
-                  <label htmlFor="message">Message*</label>
-                </td>
-              </tr>
-              <tr>
-                <td colSpan="2">
-                  <textarea
+            <label className="from_main_lable" htmlFor="name">Name*</label>
+            <input type="text" id="name" name="name" size="30" />
+            <label className=" from_main_lable" htmlFor="email">
+              Email*
+            </label>
+            <input type="email" id="email" name="email" size="30" />
+            <label className="from_main_lable" htmlFor="message">Message*</label>
+            <textarea
                     name="message"
                     id="message"
                     cols="66"
                     rows="5"
                   ></textarea>
-                </td>
-              </tr>
-            </table>
             <button type="submit" className="form-content__btn">
               SEND MESSAGE
             </button>

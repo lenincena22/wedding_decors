@@ -1,6 +1,7 @@
 import React from "react";
 import gallery_bg from "../../../assets/gallery-bg.jpg"
 import vector_img from "../../../assets/vector-smart-object.png"
+import {  Link } from "react-router-dom";
 
 const Gallery = () => {
   return (
@@ -20,7 +21,8 @@ const Gallery = () => {
             social event world, as flowers play a large part in the decor of
             special events and meetings
           </p>
-          <button className="about-content__btn" >VISIT GALLERY</button>
+          
+          <Link className="about-content__btn" to='/wedding_decors/gallery'>VISIT GALLERY</Link>
         </div>
       </div>
     </div>

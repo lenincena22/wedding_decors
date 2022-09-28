@@ -908,17 +908,21 @@ a {
   }
 
   .header_dec_space {
-    padding: 0 0 0 35% !important;
+    padding: 0 0 0 9.5rem ;
   }
 
   .header_dec_space1 {
-    padding: 0 0 0 0 !important;
+    
+    padding: 5rem 0 0 2rem ;
   }
-
   .header__fancyline {
-    padding: 0 0 0 0 !important;
-
+    height: 15rem;
+    width: auto;
+    margin-top: -5rem;
+    padding: 0 0 0 5rem ;
   }
+
+  
 
   .mian__logo {
     margin: 0;
@@ -929,7 +933,8 @@ a {
   }
 
   .main__logo__img {
-    margin: 0 0 0 -2.8rem !important;
+    margin: 0 0 0 -2.8rem ;
+
   }
 
   .feature-content__cards {
@@ -994,7 +999,7 @@ a {
   }
   //contact page
   .contact__parent {
-    height: 70vh !important;
+    height: 70vh ;
     width: 100%;
     margin-bottom: 15rem;
   }
@@ -1114,7 +1119,7 @@ a {
     margin: 10% 0 0 11.5%;
     position: absolute;
     top: 0;
-    right: 26% !important;
+    right: 26% ;
   
   }
 
@@ -1138,17 +1143,30 @@ a {
   
   }
   .location_img{
-    height:30rem !important;
+    height:30rem !important ;
     width: auto;
     margin-left: 2rem;
   }
   .location_parent{
-    height: 60vh !important;
+    height: 50vh !important;
     width: 100%;
     display: flex;
     justify-content: space-around;
   }
-
+  .from_main_lable{
+    display: block;
+    margin-top: 2rem;
+  }
+.form-content__btn{
+  margin-top: 1rem;
+}
+.form-content__caption{
+  margin-top: 10rem;
+}
+.testimonial__avatar{
+  margin-top: 4rem;
+  margin-left: 2.5rem;
+}
 }
 
 .float {
@@ -1471,9 +1489,14 @@ a {
 }
 
 .feature__item__6 {
+  background-image: url('../assets/IMG_5729.jpg');
+  background-size: cover;
+}
+.feature__item__3 {
   background-image: url('../assets/aboutUsSlider/10.JPG');
   background-size: cover;
 }
+
 
 .feature__item__5 {
   background-image: url('../assets/aboutUsSlider/3.png');
@@ -1517,7 +1540,7 @@ a {
   right: 44.8%;
 }
 .location_parent{
-  height: 80vh !important;
+  height: 80vh ;
   width: 100%;
   display: flex;
   justify-content: space-around;
